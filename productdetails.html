@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - BlueStore</title>
+    <link rel="Stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.jpg" width="$300px" height="50px">
+            </div>
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.jpg" width="30px" height="30px">
+            <img src="menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+
+<!------single product details----------->
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="f" alt="">
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="small-container">
+
+       
+
+        
+            <div class="row">
+                <div class="col-4">
+                    <img src="product1.jpg">
+                    <h4>Red Printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>$45.00</P>
+                </div>
+                <div class="col-4">
+                    <img src="product2.jpg">
+                    <h4>Red Printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>$85.00</P>
+                </div>
+                <div class="col-4">
+                    <img src="product7.jpg">
+                    <h4>Red Printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>$75.00</P>
+                </div>
+                <div class="col-4">
+                    <img src="product6.jpg">
+                    <h4>Red Printed tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <P>$65.00</P>
+                </div>
+            </div>
+
+           
+
+        </div>
+
+
+
+        <!---footer------>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile</p>
+                        <div class="app-logo">
+                            <img src="logo1.jpg">
+                            <img src="google.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="logo.jpg" width="300px" height="50px">
+
+                        <p>Our purpose is to Sustainably make the Plasure and benefits
+                            of the sports Accessible to the many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Intsagam</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div> 
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Easy Tutrials</p>
+            </div>
+        </div>
+        <!----js for toggle menu--------->
+        <script>
+            var MenuItem = document.getElementById("MenuItem");
+            MenuItem.style.maxHeight = "0px";
+            function menutoggle() {
+                if (MenuItem.style.maxHeight == "0px") {
+                    MenuItem.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItem.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+</body>
+
+</html>
